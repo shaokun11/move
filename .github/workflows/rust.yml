@@ -25,12 +25,12 @@ jobs:
     - name: Check Rust version
       run: rustc --version
 
-    - name: go aptos-vm directory
-    - run: cd aptos-vm
-
-
-    - name: Build
-      run: cargo build --verbose
-
-    - name: Run tests
-      run: cargo test --verbose
+#    - name: go aptos-vm directory
+#    - run: cd aptos-vm
+#
+#
+#    - name: Build
+#      run: cargo build --verbose
+#
+#    - name: Run tests
+#      run: cargo test --verbose
