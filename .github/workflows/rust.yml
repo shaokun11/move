@@ -25,6 +25,8 @@ jobs:
     - name: Check Rust version
       run: rustc --version
 
+    - name: current directory
+      run:  echo ${PWD}
 #    - name: go aptos-vm directory
 #    - run: cd aptos-vm
 #
