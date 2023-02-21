@@ -27,9 +27,3 @@ jobs:
 
     - name: current directory
       run:  echo ${PWD}
-
-    - name: Run
-      run: cd aptos-vm && cargo run --verbose
-
-    - name: Run tests
-      run: cd aptos-vm && cargo test --verbose

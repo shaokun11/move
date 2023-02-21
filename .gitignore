@@ -60,4 +60,3 @@ cmd/simulator/simulator-keys-temp/*
 .viewer/
 .searcher/
 .replayer/
-aptos-vm/target
